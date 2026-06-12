@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+Scanner sc = new Scanner(System.in);
+		
+		char a;
+		
+		System.out.print("");
+		String str = sc.next();
+		
+		a = str.charAt(0);
+		
+		
+		System.out.print(a);
+		
+		
+		
+		sc.close();
+
+	}
+
+}
